@@ -1,0 +1,12 @@
+{
+  "name": "levenshtein-rust",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "cd ./native && npm install && npm run build"
+  },
+  "author": "Guillermo Fragachan",
+  "license": "ISC"
+}
